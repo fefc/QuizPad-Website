@@ -1,5 +1,28 @@
 <ion-app>
-  <ion-split-pane contentId="main-content">
+  <ion-header [translucent]="true">
+    <ion-toolbar color="primary">
+      <ion-title>
+        <ion-icon src="assets/svgs/icon.svg" class="test"></ion-icon>
+        QuizPad
+      </ion-title>
+      <ion-buttons collapse="true" slot="end">
+        <ion-button>quizpad web</ion-button>
+        <ion-button>features</ion-button>
+        <ion-button>download</ion-button>
+        <ion-button>fqa</ion-button>
+        <ion-select value="FR" selectedText="Langues" interface="popover">
+          <ion-select-option value="FR">Francais</ion-select-option>
+          <ion-select-option value="DE">Deutsch</ion-select-option>
+          <ion-select-option value="EN">English</ion-select-option>
+        </ion-select>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+
+<ion-router-outlet id="main-content"></ion-router-outlet>
+
+  <!--<ion-split-pane contentId="main-content">
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="inbox-list">
@@ -25,5 +48,5 @@
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
-  </ion-split-pane>
+  </ion-split-pane>-->
 </ion-app>
