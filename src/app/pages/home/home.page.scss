@@ -1,0 +1,21 @@
+img {
+  max-height: 500px;
+}
+
+ion-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.text-col {
+  align-items: flex-start;
+}
+ion-card {
+  width: 100%;
+}
+
+/*h2 {
+  text-align: center;
+}*/
