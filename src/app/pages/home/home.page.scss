@@ -1,17 +1,72 @@
 img {
-  max-height: 500px;
+  max-height: 70vh;
 }
 
-ion-col {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
+.center-text {
+  text-align: center;
 }
 
 .text-col {
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+
+  ion-list {
+    padding-left: 36px;
+  }
 }
+
+.button-col {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+ion-card {
+  .center-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+}
+
+ion-card-content {
+  .text-col-left, .text-col-right {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+
+    ion-card-header {
+      align-self: flex-start;
+    }
+
+    ion-list {
+      position: absolute;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+
+      background-color: transparent;
+
+      ion-item {
+        width: 100%;
+      }
+    }
+  }
+
+  .text-col-right {
+    align-items: flex-start;
+
+    ion-list {
+      margin-left: 0;
+    }
+  }
+}
+
+
 ion-card {
   width: 100%;
 }

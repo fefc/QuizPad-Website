@@ -1,63 +1,124 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col class="text-col">
+      <ion-col size="6" class="text-col">
         <h2>Quizzes with your very own content!</h2>
-          <p>With QuizPad create quizzes with your content, and play them wih whom you like! Add videos, pictures. From Business to gatherings QuizPad allows you to create presentations where people can interacte with!</p>
-
-        <ion-item lines="none">
-          <ion-icon name="logo-android" color="primary" slot="start"></ion-icon>
-          <ion-label>Android</ion-label>
-        </ion-item>
-        <ion-item lines="none">
-          <ion-icon name="logo-apple" color="primary" slot="start"></ion-icon>
-          <ion-label>iPhone</ion-label>
-        </ion-item>
-        <ion-item lines="none">
-          <ion-icon name="desktop" color="primary" slot="start"></ion-icon>
-          <ion-label>Desktop</ion-label>
-        </ion-item>
+        <p>With QuizPad create quizzes with your content, and play them wih whom you like! Add videos, pictures. From Business to gatherings QuizPad allows you to create presentations where people can interacte with!</p>
+        <ion-list lines="none">
+          <ion-item>
+            <ion-icon name="logo-android" color="primary" slot="start"></ion-icon>
+            <ion-label>Android</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="logo-apple" color="primary" slot="start"></ion-icon>
+            <ion-label>iPhone</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="desktop" color="primary" slot="start"></ion-icon>
+            <ion-label>Desktop</ion-label>
+          </ion-item>
+        </ion-list>
       </ion-col>
-      <ion-col>
-        <img src="assets/imgs/1.png"/>
-
-        <!--<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XRnzDvuUqXg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          -->
+      <ion-col size="6">
+        <ion-slides [options]="sliderOpts" >
+          <ion-slide>
+            <img src="assets/imgs/home/start.png"/>
+          </ion-slide>
+          <ion-slide>
+            <img src="assets/imgs/home/quiz.png"/>
+          </ion-slide>
+          <ion-slide>
+            <img src="assets/imgs/home/question.png"/>
+          </ion-slide>
+        </ion-slides>
       </ion-col>
     </ion-row>
-    <ion-row>
+    <!--<ion-row>
       <ion-col>
-        <h2>QuizPad in a few steps</h2>
+        <h2>Use cases</h2>
       </ion-col>
     </ion-row>
-  </ion-grid>
-  <ion-grid>
     <ion-row>
       <ion-col>
         <ion-card>
+          <img src="assets/imgs/3.png"/>
+
           <ion-card-header>
-            <ion-card-subtitle color="primary">Step 1</ion-card-subtitle>
-            <ion-card-title>Add Questions</ion-card-title>
+            <ion-card-title>Business</ion-card-title>
           </ion-card-header>
+          <ion-card-content>
+            Blabla
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <img src="assets/imgs/3.png"/>
+
+          <ion-card-header>
+            <ion-card-title>Gatherings</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Blabla
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card>
+          <img src="assets/imgs/3.png"/>
+
+          <ion-card-header>
+            <ion-card-title>Friends</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Blabla
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>-->
+    <ion-row>
+      <ion-col>
+        <h2 class="center-text">QuizPad in a few steps</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
           <ion-card-content>
             <ion-grid>
               <ion-row>
-                <ion-col>
-                  <img src="assets/imgs/3.png"/>
+                <ion-col size="6">
+                  <ion-slides [options]="sliderOpts" >
+                    <ion-slide>
+                      <img src="assets/imgs/home/new-question.png"/>
+                    </ion-slide>
+                    <ion-slide>
+                      <img src="assets/imgs/home/gallery.png"/>
+                    </ion-slide>
+                    <ion-slide>
+                      <img src="assets/imgs/home/question-picture.png"/>
+                    </ion-slide>
+                  </ion-slides>
                 </ion-col>
-                <ion-col class="text-col">
-                  <ion-item lines="none">
-                    <ion-icon name="pencil-sharp" color="primary" slot="start"></ion-icon>
-                    <ion-label>Write question and answers</ion-label>
-                  </ion-item>
-                  <ion-item lines="none">
-                    <ion-icon name="images-sharp" color="primary" slot="start"></ion-icon>
-                    <ion-label>Add medias for mor entertainment</ion-label>
-                  </ion-item>
-                  <ion-item lines="none">
-                    <ion-icon name="git-compare-sharp" color="primary" slot="start"></ion-icon>
-                    <ion-label>Organise categories and questions</ion-label>
-                  </ion-item>
+                <ion-col size="6" class="text-col-right">
+                  <ion-card-header>
+                    <ion-card-subtitle color="primary">Step 1</ion-card-subtitle>
+                    <ion-card-title>Add Questions</ion-card-title>
+                  </ion-card-header>
+                  <ion-list lines="none">
+                    <ion-item>
+                      <ion-icon name="pencil-sharp" color="primary" slot="start"></ion-icon>
+                      <ion-label>Write question and answers</ion-label>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="images-sharp" color="primary" slot="start"></ion-icon>
+                      <ion-label>Add medias for mor entertainment</ion-label>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="git-compare-sharp" color="primary" slot="start"></ion-icon>
+                      <ion-label>Organise categories and questions</ion-label>
+                    </ion-item>
+                  </ion-list>
                 </ion-col>
 
               </ion-row>
@@ -70,9 +131,8 @@
     <ion-row>
       <ion-col>
         <ion-card>
-          <img src="assets/imgs/qr-code.png"/>
-
-          <ion-card-header>
+          <img src="assets/imgs/home/start-quiz.png"/>
+          <ion-card-header class="center-header">
             <ion-card-subtitle color="primary">Step 2</ion-card-subtitle>
             <ion-card-title>Start Quiz</ion-card-title>
           </ion-card-header>
@@ -82,31 +142,42 @@
     <ion-row>
       <ion-col>
         <ion-card>
-          <ion-card-header>
-            <ion-card-subtitle color="primary">Step 3</ion-card-subtitle>
-            <ion-card-title>Join game</ion-card-title>
-          </ion-card-header>
           <ion-card-content>
             <ion-grid>
               <ion-row>
-                <ion-col>
-                  <ion-list class="text-col">
-                    <ion-item lines="none">
-                      <ion-icon name="qr-code-sharp" slot="start"></ion-icon>
-                      <ion-label>Scan the QrCode</ion-label>
-                    </ion-item>
-                    <ion-item lines="none">
-                      <ion-icon name="text" slot="start"></ion-icon>
+                <ion-col size="6" class="text-col-left">
+                  <ion-card-header>
+                    <ion-card-subtitle color="primary">Step 3</ion-card-subtitle>
+                    <ion-card-title>Join game</ion-card-title>
+                  </ion-card-header>
+
+                  <ion-list lines="none">
+                    <ion-item >
+                      <ion-icon name="text" color="primary" slot="start"></ion-icon>
                       <ion-label>Choose your nickname</ion-label>
                     </ion-item>
-                    <ion-item lines="none">
-                      <ion-icon name="person-circle" slot="start"></ion-icon>
+                    <ion-item>
+                      <ion-icon name="person-circle" color="primary" slot="start"></ion-icon>
                       <ion-label>Set an avatar</ion-label>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="qr-code-sharp" color="primary" slot="start"></ion-icon>
+                      <ion-label>Scan the QrCode</ion-label>
                     </ion-item>
                   </ion-list>
                 </ion-col>
-                <ion-col>
-                  <img src="assets/imgs/5.png"/>
+                <ion-col size="6">
+                  <ion-slides [options]="sliderOpts" >
+                    <ion-slide>
+                      <img src="assets/imgs/home/profile.png"/>
+                    </ion-slide>
+                    <ion-slide>
+                      <img src="assets/imgs/home/scan.png"/>
+                    </ion-slide>
+                    <ion-slide>
+                      <img src="assets/imgs/home/controller.png"/>
+                    </ion-slide>
+                  </ion-slides>
                 </ion-col>
               </ion-row>
             </ion-grid>
@@ -115,8 +186,8 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col>
-        <ion-button>Discover more features</ion-button>
+      <ion-col class="button-col">
+        <ion-button fill="outline">Discover more features</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
