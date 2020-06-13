@@ -8,11 +8,14 @@ import { DownloadPageRoutingModule } from './download-routing.module';
 
 import { DownloadPage } from './download.page';
 
+import { ComponentsModule } from '../../components/components.module';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentsModule,
     DownloadPageRoutingModule
   ],
   declarations: [DownloadPage]
