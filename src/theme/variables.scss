@@ -4,12 +4,65 @@
 /** Ionic CSS Variables **/
 :root {
 
-  --ion-background-color: #222;
+  /*--ion-background-color: #222222;
+    --ion-background-color-rgb: 34,34,34;
+
+    --ion-text-color: #bbbbbb;
+    --ion-text-color-rgb: 187,187,187;
+
+    --ion-color-step-50: #2a2a2a;
+    --ion-color-step-100: #313131;
+    --ion-color-step-150: #393939;
+    --ion-color-step-200: #414141;
+    --ion-color-step-250: #484848;
+    --ion-color-step-300: #505050;
+    --ion-color-step-350: #585858;
+    --ion-color-step-400: #5f5f5f;
+    --ion-color-step-450: #676767;
+    --ion-color-step-500: #6f6f6f;
+    --ion-color-step-550: #767676;
+    --ion-color-step-600: #7e7e7e;
+    --ion-color-step-650: #858585;
+    --ion-color-step-700: #8d8d8d;
+    --ion-color-step-750: #959595;
+    --ion-color-step-800: #9c9c9c;
+    --ion-color-step-850: #a4a4a4;
+    --ion-color-step-900: #acacac;
+    --ion-color-step-950: #b3b3b3;*/
+
+
+  //--ion-background-color: #222;
   //--ion-background-color-rgb
 
-  --ion-text-color: #bbb;
+ion-card {
+  ion-card-header {
+    text-align: left;
 
-  --ion-color-favorite: #111;
+    ion-card-subtitle {
+      font-size: 1.3rem;
+    }
+    ion-card-title {
+      font-size: 2rem;
+    }
+  }
+
+  ion-item {
+    font-size: 1.3rem;
+  }
+
+  ion-card-content {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+
+
+
+
+  //--ion-text-color: #bbb;
+
+  --ion-color-favorite: #222;
   --ion-color-favorite-rgb: 105,187,123;
   --ion-color-favorite-contrast: #ffffff;
   --ion-color-favorite-contrast-rgb: 255,255,255;
