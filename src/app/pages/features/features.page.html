@@ -1,59 +1,41 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col>
+      <ion-col size="6">
         <ion-card>
-          <img src="assets/imgs/qr-code.png"/>
           <ion-item>
             <ion-icon name="qr-code" slot="start"></ion-icon>
-            <ion-label>QR Code</ion-label>
+            <ion-label>QrCode</ion-label>
           </ion-item>
           <ion-card-content>
             Nothing is more easy than participating to a quiz! Just scan the QrCode on the screen with any smartphone and you are good to go!
           </ion-card-content>
+          <ion-slides [options]="sliderOpts">
+            <ion-slide>
+              <img src="assets/imgs/features/scan-meuble.png"/>
+            </ion-slide>
+          </ion-slides>
         </ion-card>
       </ion-col>
-      <ion-col>
+      <ion-col size="6">
         <ion-card>
-          <img src="assets/imgs/multiplayer.png"/>
           <ion-item>
             <ion-icon name="people" slot="start"></ion-icon>
-            <ion-label>Social</ion-label>
+            <ion-label>Multiplayer</ion-label>
           </ion-item>
           <ion-card-content>
-            Play with muptiple people, they just need a smartphone to participate! From 2 to 16 players, it's up to you!
+            Play with muptiple people,Play with muptiple people,Play with muptiple people,Play with muptiple people,Play with muptiple people,
           </ion-card-content>
+          <ion-slides [options]="sliderOpts">
+            <ion-slide>
+              <img src="assets/imgs/features/scan-meuble-2.png"/>
+            </ion-slide>
+          </ion-slides>
         </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col>
-        <ion-card>
-          <img src="assets/imgs/introduction.png"/>
-          <ion-item>
-            <ion-icon name="videocam" slot="start"></ion-icon>
-            <ion-label>Introduction</ion-label>
-          </ion-item>
-          <ion-card-content>
-            Inegrate a video or an image as an introduction to your question. This makes your quiz even more entertaining for everyone.
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-      <ion-col>
-        <ion-card>
-          <img src="assets/imgs/multiple-forms.png"/>
-          <ion-item>
-            <ion-icon name="rose" slot="start"></ion-icon>
-            <ion-label>Multiple forms</ion-label>
-          </ion-item>
-          <ion-card-content>
-            From text answers to pictures, choose how you want to display your content! Adapt the question to your content.
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
+      <ion-col size="6">
         <ion-card>
           <ion-item>
             <ion-icon name="planet" slot="start"></ion-icon>
@@ -64,18 +46,68 @@
             You can add a video or an image as an introduction to your question.
             You can also choose use images as answers to you question!
           </ion-card-content>
+          <img class="img-center" src="assets/imgs/sync-2.png"/>
         </ion-card>
       </ion-col>
-      <ion-col>
+      <ion-col size="6">
         <ion-card>
           <ion-item>
             <ion-icon name="color-palette" slot="start"></ion-icon>
             <ion-label>Customize</ion-label>
           </ion-item>
           <ion-card-content>
-            Background
-            texts
+            Integrate medias to your questions and enhance game experience.
+            You can add a video or an image as an introduction to your question.
+            You can also choose use images as answers to you question!
           </ion-card-content>
+          <ion-slides [options]="sliderOpts">
+            <ion-slide>
+              <img src="assets/imgs/features/Nexus5_background-1.png"/>
+            </ion-slide>
+            <ion-slide>
+              <img src="assets/imgs/features/Nexus5_background-2.png"/>
+            </ion-slide>
+            <ion-slide>
+              <img src="assets/imgs/features/Nexus5_settings.png"/>
+            </ion-slide>
+          </ion-slides>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <ion-item>
+            <ion-icon name="document" slot="start"></ion-icon>
+            <ion-label>Drafts</ion-label>
+          </ion-item>
+          <ion-card-content>
+            Draft save when you whant
+          </ion-card-content>
+          <ion-slides [options]="sliderOpts">
+            <ion-slide>
+              <img src="assets/imgs/features/Pixel3_draft.png"/>
+            </ion-slide>
+          </ion-slides>
+        </ion-card>
+      </ion-col>
+      <ion-col size="6">
+        <ion-card>
+          <ion-item>
+            <ion-icon name="rose" slot="start"></ion-icon>
+            <ion-label>Multiple formats</ion-label>
+          </ion-item>
+          <ion-card-content>
+            From text answers to pictures, choose how you want to display your content! Adapt the question to your content.
+          </ion-card-content>
+          <ion-slides [options]="sliderOpts">
+            <ion-slide>
+              <img src="assets/imgs/features/tv-legalize.png"/>
+            </ion-slide>
+            <ion-slide>
+              <img src="assets/imgs/features/tv-tasmanian.png"/>
+            </ion-slide>
+          </ion-slides>
         </ion-card>
       </ion-col>
     </ion-row>
