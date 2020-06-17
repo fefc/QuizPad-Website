@@ -8,11 +8,14 @@ import { FeaturesPageRoutingModule } from './features-routing.module';
 
 import { FeaturesPage } from './features.page';
 
+import { ComponentsModule } from '../../components/components.module';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentsModule,
     FeaturesPageRoutingModule
   ],
   declarations: [FeaturesPage]
