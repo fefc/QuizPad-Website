@@ -28,13 +28,20 @@ export class AppComponent implements OnInit {
     private statusBar: StatusBar,
     private translate: TranslateService
   ) {
-    this.selectedLanguage = 'de';
 
     this.initializeApp();
   }
 
   initializeApp() {
     this.platform.ready().then(() => {
+      this.translate.addLangs(['en', 'fr', 'de']); //Set available languages
+
+      this.selectedLanguage = this.getSimplePlatformLocale();
+
+      if (this.translate.getLangs().indexOf(this.selectedLanguage) === -1) {
+        this.selectedLanguage = 'en';
+      }
+
       this.translate.setDefaultLang(this.selectedLanguage);
 
       this.statusBar.styleDefault();
@@ -54,4 +61,19 @@ export class AppComponent implements OnInit {
       this.selectedIndex = 0;//this.appPages.findIndex(page => page.title.toLowerCase() === path.toLowerCase());
     }*/
   }
+
+  getSimplePlatformLocale() {
+    let locale: string = this.getCrossPlatformLocale().toLowerCase();
+
+    if (locale.includes('-')) locale = locale.split('-')[0];
+
+    return locale;
+  }
+
+  //Code taken from
+  //https://github.com/apache/cordova-plugin-globalization/blob/master/src/browser/GlobalizationProxy.js
+  getCrossPlatformLocale () {
+    // userLanguage is for IE, which corresponds to selected regional format
+    return (<any> window.navigator).userLanguage || window.navigator.language;
+}
 }
