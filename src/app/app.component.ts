@@ -12,6 +12,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
+  private selectedLanguage: string = 'fr';
+
   public appPages = [
     {
       title: 'Download',
@@ -26,15 +28,22 @@ export class AppComponent implements OnInit {
     private statusBar: StatusBar,
     private translate: TranslateService
   ) {
+    this.selectedLanguage = 'de';
+
     this.initializeApp();
   }
 
   initializeApp() {
     this.platform.ready().then(() => {
-      this.translate.setDefaultLang('de');
+      this.translate.setDefaultLang(this.selectedLanguage);
+
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+  }
+
+  changeLanguage() {
+    this.translate.setDefaultLang(this.selectedLanguage);
   }
 
   ngOnInit() {

@@ -9,12 +9,12 @@
         <ion-button href="https://web.quizpadapp.com/">{{ 'HEADER.WEB' | translate }}</ion-button>
         <ion-button routerLink="/features" routerDirection="root">{{ 'HEADER.FEATURES' | translate }}</ion-button>
         <ion-button routerLink="/download" routerDirection="root">{{ 'HEADER.DOWNLOAD' | translate }}</ion-button>
-        <!--<ion-button routerLink="/help" routerDirection="root">HELP</ion-button>
-        <ion-select value="FR" selectedText="Langues" interface="popover">
-          <ion-select-option value="FR">Francais</ion-select-option>
-          <ion-select-option value="DE">Deutsch</ion-select-option>
-          <ion-select-option value="EN">English</ion-select-option>
-        </ion-select>-->
+        <!--<ion-button routerLink="/help" routerDirection="root">HELP</ion-button>-->
+        <ion-select interface="popover" [(ngModel)]="selectedLanguage" (ngModelChange)="changeLanguage()">
+          <ion-select-option value="fr">Francais</ion-select-option>
+          <ion-select-option value="de">Deutsch</ion-select-option>
+          <ion-select-option value="en">English</ion-select-option>
+        </ion-select>
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
