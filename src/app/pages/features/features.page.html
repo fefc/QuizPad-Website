@@ -1,7 +1,7 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col size="6">
+      <ion-col size="12" size-lg="6">
         <ion-card>
           <ion-item>
             <ion-icon name="qr-code" slot="start"></ion-icon>
@@ -11,14 +11,12 @@
             Nothing is more easy than joining a game!
             Using any smartphone, simply scan the QrCode on the screen, that is it!
           </ion-card-content>
-          <ion-slides [options]="sliderOpts">
-            <ion-slide>
-              <img src="assets/imgs/features/scan-meuble.png"/>
-            </ion-slide>
-          </ion-slides>
+          <div class="img-container">
+            <img src="assets/imgs/features/scan-meuble.png"/>
+          </div>
         </ion-card>
       </ion-col>
-      <ion-col size="6">
+      <ion-col size="12" size-lg="6">
         <ion-card>
           <ion-item>
             <ion-icon name="people" slot="start"></ion-icon>
@@ -28,16 +26,14 @@
             From 2 to 16 players, it's up to you!
             It doesn't matter how many people play, QuizPad automaticaly scales to fit your needs!
           </ion-card-content>
-          <ion-slides [options]="sliderOpts">
-            <ion-slide>
-              <img src="assets/imgs/features/scan-meuble-2.png"/>
-            </ion-slide>
-          </ion-slides>
+          <div class="img-container">
+            <img src="assets/imgs/features/scan-meuble-2.png"/>
+          </div>
         </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col size="6">
+      <ion-col size="12" size-lg="6">
         <ion-card>
           <ion-item>
             <ion-icon name="planet" slot="start"></ion-icon>
@@ -47,10 +43,12 @@
              You just got a new idea? Write it down on your phone and edit it later on your desktop.
             QuizPad will automaticaly synchronise all your devices between them.
           </ion-card-content>
-          <img class="img-center" src="assets/imgs/sync-2.png"/>
+          <div class="img-container">
+            <img class="img-center" src="assets/imgs/sync-2.png"/>
+          </div>
         </ion-card>
       </ion-col>
-      <ion-col size="6">
+      <ion-col size="12" size-lg="6">
         <ion-card>
           <ion-item>
             <ion-icon name="color-palette" slot="start"></ion-icon>
@@ -60,22 +58,24 @@
             Choose your own background, welcome & end messages. Decid between autoplay or manual mode.
             Advanced settings allow you to set a custom time for questions and more.
           </ion-card-content>
-          <ion-slides [options]="sliderOpts">
-            <ion-slide>
-              <img src="assets/imgs/features/Nexus5_background-1.png"/>
-            </ion-slide>
-            <ion-slide>
-              <img src="assets/imgs/features/Nexus5_background-2.png"/>
-            </ion-slide>
-            <ion-slide>
-              <img src="assets/imgs/features/Nexus5_settings.png"/>
-            </ion-slide>
-          </ion-slides>
+          <div class="img-container">
+            <ion-slides [options]="sliderOpts">
+              <ion-slide>
+                <img src="assets/imgs/features/Nexus5_background-1.png"/>
+              </ion-slide>
+              <ion-slide>
+                <img src="assets/imgs/features/Nexus5_background-2.png"/>
+              </ion-slide>
+              <ion-slide>
+                <img src="assets/imgs/features/Nexus5_settings.png"/>
+              </ion-slide>
+            </ion-slides>
+          </div>
         </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col size="6">
+      <ion-col size="12" size-lg="6">
         <ion-card>
           <ion-item>
             <ion-icon name="document" slot="start"></ion-icon>
@@ -85,14 +85,12 @@
             You have any idea but not all informations or medias?
             Before you forget, save it as a draft and fill the rest out later.
           </ion-card-content>
-          <ion-slides [options]="sliderOpts">
-            <ion-slide>
-              <img src="assets/imgs/features/Pixel3_draft.png"/>
-            </ion-slide>
-          </ion-slides>
+          <div class="img-container">
+            <img src="assets/imgs/features/Pixel3_draft.png"/>
+          </div>
         </ion-card>
       </ion-col>
-      <ion-col size="6">
+      <ion-col size="12" size-lg="6">
         <ion-card>
           <ion-item>
             <ion-icon name="rose" slot="start"></ion-icon>
@@ -102,6 +100,7 @@
             From text answers to pictures, choose how you want to display your content!
             Add a media as an introduction to your question and make your quiz even more lively.
           </ion-card-content>
+          <div class="img-container">
           <ion-slides [options]="sliderOpts">
             <ion-slide>
               <img src="assets/imgs/features/tv-legalize.png"/>
@@ -110,6 +109,7 @@
               <img src="assets/imgs/features/tv-tasmanian.png"/>
             </ion-slide>
           </ion-slides>
+          </div>
         </ion-card>
       </ion-col>
     </ion-row>
