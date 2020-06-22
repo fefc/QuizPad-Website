@@ -1,7 +1,16 @@
+ion-footer {
+  margin-top: 5em;
+}
+
+ion-toolbar {
+}
+
 ion-grid {
   max-width: none;
   padding-left: 25%;
   padding-right: 25%;
+  padding-bottom: 5em;
+
   //background-color: gray;
 
   ion-col {
