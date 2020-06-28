@@ -5,10 +5,10 @@
         <ion-card>
           <ion-item>
             <ion-icon name="logo-android" slot="start"></ion-icon>
-            <ion-label>Android</ion-label>
+            <ion-label>{{ 'DOWNLOAD.ANDROID_TITLE' | translate }}</ion-label>
           </ion-item>
           <ion-card-content>
-            QuizPad is available for Android on Google Play.
+            {{ 'DOWNLOAD.ANDROID_DESC' | translate }}
             <div>
               <img src="assets/imgs/playstore.png">
             </div>
@@ -19,10 +19,10 @@
         <ion-card>
           <ion-item>
             <ion-icon name="logo-apple" slot="start"></ion-icon>
-            <ion-label>iPhone</ion-label>
+            <ion-label>{{ 'DOWNLOAD.IOS_TITLE' | translate }}</ion-label>
           </ion-item>
           <ion-card-content>
-            iOS version is currently under active development and will be available soon on the App Store.
+            {{ 'DOWNLOAD.IOS_DESC' | translate }}
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -30,12 +30,14 @@
         <ion-card>
           <ion-item>
             <ion-icon name="desktop" slot="start"></ion-icon>
-            <ion-label>Desktop</ion-label>
+            <ion-label>{{ 'DOWNLOAD.DESKTOP_TITLE' | translate }}</ion-label>
           </ion-item>
           <ion-card-content>
-            QuizPad is also available in your web browser to create and play!
+            {{ 'DOWNLOAD.DESKTOP_DESC' | translate }}
             <div>
-              <ion-button fill="outline">QuizPad Web</ion-button>
+              <ion-button fill="outline">
+                {{ 'DOWNLOAD.DESKTOP_WEB' | translate }}
+              </ion-button>
             </div>
           </ion-card-content>
         </ion-card>

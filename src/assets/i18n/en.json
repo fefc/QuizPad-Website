@@ -4,5 +4,28 @@
     "FEATURES": "Features",
     "DOWNLOAD": "Download"
   },
-  "ABOUT": "About"
+  "FEATURES": {
+    "QRCODE_TITLE": "Qr-Code",
+    "MULTIPLAYER_TITLE": "Multiplayer",
+    "SYNCHRONISE_TITLE": "Synchronisation",
+    "CUSTOMIZE_TITLE": "Customize",
+    "DRAFTS_TITLE": "Drafts",
+    "MULTIPLE_FORMATS_TITLE": "Multiple formats",
+    "QRCODE_DESC": "Nothing is more easy than joining a game! Using any smartphone, simply scan the Qr-Code on the screen, that is it!",
+    "MULTIPLAYER_DESC": "From 2 to 16 players, it's up to you! It doesn't matter how many people play, QuizPad automaticaly scales to fit your needs!",
+    "SYNCHRONISE_DESC": "You just got a new idea? Write it down on your phone and edit it later on your desktop. QuizPad will automatically synchronise all your devices between them.",
+    "CUSTOMIZE_DESC": "Choose your own background, welcome & end messages. Decide between autoplay or manual mode. Advanced settings allow you to set a custom times for questions and more.",
+    "DRAFTS_DESC": "You have any idea but not all informations or medias? Before you forget, save it as a draft and fill the rest out later.",
+    "MULTIPLE_FORMATS_DESC": "From text answers to pictures, choose how you want to display your content! Add a media as an introduction to your question and make your quiz even more lively."
+  },
+  "ABOUT": "About",
+  "DOWNLOAD": {
+    "ANDROID_TITLE": "Android",
+    "ANDROID_DESC": "QuizPad is available for Android on Google Play.",
+    "IOS_TITLE": "iOS",
+    "IOS_DESC": "The iOS version is currently under active development and will be available in the App Store shortly.",
+    "DESKTOP_TITLE": "Desktop",
+    "DESKTOP_DESC": "QuizPad is also available in your web browser to create and play!",
+    "DESKTOP_WEB": "QuizPad Web"
+  }
 }
