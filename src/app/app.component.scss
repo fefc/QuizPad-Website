@@ -1,7 +1,12 @@
-ion-toolbar {
-  padding-left: 5em;
-  padding-right: 5em;
+
+@media screen and (min-width: 992px) {
+  ion-toolbar {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
 }
+
+
 
 ion-title {
   width: fit-content;

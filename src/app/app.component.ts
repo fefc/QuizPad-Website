@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { TranslateService } from '@ngx-translate/core';
-import { Platform } from '@ionic/angular';
+import { Platform, MenuController } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
 
   constructor(
     private platform: Platform,
+    private menuCtrl: MenuController,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
     private translate: TranslateService
@@ -51,6 +52,14 @@ export class AppComponent implements OnInit {
 
   changeLanguage() {
     this.translate.setDefaultLang(this.selectedLanguage);
+  }
+
+  openMenu() {
+    this.menuCtrl.open('first');
+  }
+
+  closeMenu() {
+    this.menuCtrl.close('first');
   }
 
   ngOnInit() {
