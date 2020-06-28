@@ -14,14 +14,6 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   private selectedLanguage: string = 'fr';
 
-  public appPages = [
-    {
-      title: 'Download',
-      url: '/download',
-      icon: 'download'
-    }
-  ];
-
   constructor(
     private platform: Platform,
     private menuCtrl: MenuController,

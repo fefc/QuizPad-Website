@@ -20,6 +20,12 @@ ion-title {
   width: 100%;
 }
 
+ion-menu {
+  ion-list {
+    background: transparent;
+  }
+}
+
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }

@@ -2,7 +2,10 @@
   "HEADER": {
     "WEB": "QuizPad Web",
     "FEATURES": "Fonctionnalités",
-    "DOWNLOAD": "Télécharger"
+    "DOWNLOAD": "Télécharger",
+    "LANGUAGE": "Langue",
+    "OK": "OK",
+    "CANCEL": "Annuler"
   },
   "FEATURES": {
     "QRCODE_TITLE": "Qr-Code",
