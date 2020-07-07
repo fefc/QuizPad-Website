@@ -21,7 +21,6 @@
     "DRAFTS_DESC": "You have any idea but not all informations or medias? Before you forget, save it as a draft and fill the rest out later.",
     "MULTIPLE_FORMATS_DESC": "From text answers to pictures, choose how you want to display your content! Add a media as an introduction to your question and make your quiz even more lively."
   },
-  "ABOUT": "About",
   "DOWNLOAD": {
     "ANDROID_TITLE": "Android",
     "ANDROID_DESC": "QuizPad is available for Android on Google Play.",
@@ -30,5 +29,26 @@
     "DESKTOP_TITLE": "Desktop",
     "DESKTOP_DESC": "QuizPad is also available in your web browser to create and play!",
     "DESKTOP_WEB": "QuizPad Web"
+  },
+  "HOME": {
+    "MAIN_TITLE": "Create quizzes with your very own content!",
+    "MAIN_DESC": "With QuizPad create your personalized quizzes and play them with whoever you want! Add medias such as photos and videos! From meetings to events, QuizPad allows you to create presentations in which participants can interact!",
+    "MAIN_ANDROID_TITLE": "Android",
+    "MAIN_IOS_TITLE": "iOS",
+    "MAIN_DESKTOP_TITLE": "Desktop",
+    "STEPS_TITLE": "QuizPad in a few steps",
+    "STEP_ONE_SUBTITLE": "Step 1",
+    "STEP_ONE_TITLE": "Create",
+    "STEP_ONE_DESC_ONE": "Write your content",
+    "STEP_ONE_DESC_TWO": "Add photos and videos",
+    "STEP_ONE_DESC_THREE": "Organise categories and questions",
+    "STEP_TWO_SUBTITLE": "Step 2",
+    "STEP_TWO_TITLE": "Join",
+    "STEP_TWO_DESC_ONE": "Scan the QrCode",
+    "STEP_TWO_DESC_TWO": "Choose a nickname",
+    "STEP_TWO_DESC_THREE": "Set an avatar",
+    "STEP_THREE_SUBTITLE": "Step 3",
+    "STEP_THREE_TITLE": "Play",
+    "MAIN_DISCOVER_FEATURES": "Discover more features"
   }
 }

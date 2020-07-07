@@ -21,7 +21,6 @@
     "DRAFTS_DESC": "Vous avez une idée mais pas toutes les informations ou médias? Avant d'oublier, enregistrez-la en tant que brouillon et remplissez le reste plus tard.",
     "MULTIPLE_FORMATS_DESC": "Des réponses textuelles aux images, choisissez comment vous souhaitez afficher votre contenu! Ajoutez un média comme introduction à votre question et rendez votre quiz encore plus vivant."
   },
-  "ABOUT": "A propos",
   "DOWNLOAD": {
     "ANDROID_TITLE": "Android",
     "ANDROID_DESC": "QuizPad est disponible pour Android sur Google Play.",
@@ -30,5 +29,26 @@
     "DESKTOP_TITLE": "PC",
     "DESKTOP_DESC": "QuizPad est également disponible dans votre navigateur Web pour créer et jouer!",
     "DESKTOP_WEB": "QuizPad Web"
+  },
+  "HOME": {
+    "MAIN_TITLE": "Créer des quizs avec votre propre contenu!",
+    "MAIN_DESC": "Avec QuizPad créez vos quizs personalisés et jouez les avec qui vous voulez! Ajoutez du contenu multimedia tels que des photos et des videos! Des réunions aux évenements, QuizPad vous permet de créer des présentations auquels les participants peuvent intéragir!",
+    "MAIN_ANDROID_TITLE": "Android",
+    "MAIN_IOS_TITLE": "iOS",
+    "MAIN_DESKTOP_TITLE": "PC",
+    "STEPS_TITLE": "QuizPad en quelques étapes",
+    "STEP_ONE_SUBTITLE": "Étape 1",
+    "STEP_ONE_TITLE": "Créez",
+    "STEP_ONE_DESC_ONE": "Écrivez votre contenu",
+    "STEP_ONE_DESC_TWO": "Ajouter photos et vidéos",
+    "STEP_ONE_DESC_THREE": "Organiser catégories et questions",
+    "STEP_TWO_SUBTITLE": "Étape 2",
+    "STEP_TWO_TITLE": "Participez",
+    "STEP_TWO_DESC_ONE": "Scannez le QrCode",
+    "STEP_TWO_DESC_TWO": "Choisissez un pseudo",
+    "STEP_TWO_DESC_THREE": "Sélectionnez votre avatar",
+    "STEP_THREE_SUBTITLE": "Étape 3",
+    "STEP_THREE_TITLE": "Jouez",
+    "MAIN_DISCOVER_FEATURES": "Découvrez plus de fonctionnalités"
   }
 }
