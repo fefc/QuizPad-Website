@@ -28,7 +28,7 @@
     "IOS_DESC": "La version iOS est actuellement en développement actif et sera disponible dans l'App Store sous peu.",
     "DESKTOP_TITLE": "PC",
     "DESKTOP_DESC": "QuizPad est également disponible dans votre navigateur Web pour créer et jouer!",
-    "DESKTOP_WEB": "QuizPad Web"
+    "DESKTOP_WEB": "Ouvrir l'app"
   },
   "HOME": {
     "MAIN_TITLE": "Créer des quizs avec votre propre contenu!",
@@ -49,6 +49,6 @@
     "STEP_TWO_DESC_THREE": "Sélectionnez votre avatar",
     "STEP_THREE_SUBTITLE": "Étape 3",
     "STEP_THREE_TITLE": "Jouez",
-    "MAIN_DISCOVER_FEATURES": "Découvrez plus de fonctionnalités"
+    "MAIN_DISCOVER_FEATURES": "Découvrez toutes les fonctionnalités"
   }
 }

@@ -1,5 +1,14 @@
-ion-card {
-  height: 100%;
+ion-col {
+  display: flex;
+  flex-flow: column;
+
+  ion-card {
+    flex-grow: 1;
+
+    display: flex;
+    flex-flow: column;
+
+  }
 }
 
 ion-card-content {

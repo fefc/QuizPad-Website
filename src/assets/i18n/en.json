@@ -28,7 +28,7 @@
     "IOS_DESC": "The iOS version is currently under active development and will be available in the App Store shortly.",
     "DESKTOP_TITLE": "Desktop",
     "DESKTOP_DESC": "QuizPad is also available in your web browser to create and play!",
-    "DESKTOP_WEB": "QuizPad Web"
+    "DESKTOP_WEB": "Open App"
   },
   "HOME": {
     "MAIN_TITLE": "Create quizzes with your very own content!",
@@ -49,6 +49,6 @@
     "STEP_TWO_DESC_THREE": "Set an avatar",
     "STEP_THREE_SUBTITLE": "Step 3",
     "STEP_THREE_TITLE": "Play",
-    "MAIN_DISCOVER_FEATURES": "Discover more features"
+    "MAIN_DISCOVER_FEATURES": "Discover all features"
   }
 }
