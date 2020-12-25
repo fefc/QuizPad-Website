@@ -86,7 +86,7 @@
         <ion-card>
           <ion-card-content>
             <ion-grid>
-              <ion-row>
+              <ion-row class="ion-hide-lg-down">
                 <ion-col size="6">
                   <ion-slides [options]="sliderOpts" >
                     <ion-slide>
@@ -120,10 +120,41 @@
                     </ion-item>
                   </ion-list>
                 </ion-col>
-
+              </ion-row>
+              <ion-row class="ion-hide-lg-up">
+                <ion-col size="12">
+                  <ion-card-header>
+                    <ion-card-subtitle color="primary">{{ 'HOME.STEP_ONE_SUBTITLE' | translate }}</ion-card-subtitle>
+                    <ion-card-title>{{ 'HOME.STEP_ONE_TITLE' | translate }}</ion-card-title>
+                  </ion-card-header>
+                  <ion-list lines="none">
+                    <ion-item>
+                      <ion-icon name="pencil" color="primary" slot="start"></ion-icon>
+                      <ion-label>{{ 'HOME.STEP_ONE_DESC_ONE' | translate }}</ion-label>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="images" color="primary" slot="start"></ion-icon>
+                      <ion-label>{{ 'HOME.STEP_ONE_DESC_TWO' | translate }}</ion-label>
+                    </ion-item>
+                    <ion-item>
+                      <ion-icon name="git-compare" color="primary" slot="start"></ion-icon>
+                      <ion-label>{{ 'HOME.STEP_ONE_DESC_THREE' | translate }}</ion-label>
+                    </ion-item>
+                  </ion-list>
+                  <ion-slides [options]="sliderOpts">
+                    <ion-slide>
+                      <img src="assets/imgs/home/new-question.png"/>
+                    </ion-slide>
+                    <ion-slide>
+                      <img src="assets/imgs/home/gallery.png"/>
+                    </ion-slide>
+                    <ion-slide>
+                      <img src="assets/imgs/home/question-picture.png"/>
+                    </ion-slide>
+                  </ion-slides>
+                </ion-col>
               </ion-row>
             </ion-grid>
-
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -177,11 +208,13 @@
     <ion-row>
       <ion-col>
         <ion-card>
-          <img src="assets/imgs/home/start-quiz.png"/>
           <ion-card-header class="center-header">
             <ion-card-subtitle color="primary">{{ 'HOME.STEP_THREE_SUBTITLE' | translate }}</ion-card-subtitle>
             <ion-card-title>{{ 'HOME.STEP_THREE_TITLE' | translate }}</ion-card-title>
           </ion-card-header>
+          <div class="img-container">
+            <img src="assets/imgs/home/start-quiz.png"/>
+          </div>
         </ion-card>
       </ion-col>
     </ion-row>

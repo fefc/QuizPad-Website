@@ -68,7 +68,15 @@ ion-card-content {
 
 
 ion-card {
-  width: 100%;
+  //width: 100%;
+
+  .img-container {
+    flex-grow: 1;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+  }
 }
 
 /*h2 {
