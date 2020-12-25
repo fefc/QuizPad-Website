@@ -9,14 +9,14 @@ import { DownloadPageRoutingModule } from './download-routing.module';
 
 import { DownloadPage } from './download.page';
 
-import { ComponentsModule } from '../../components/components.module';
+import { FooterComponentModule } from '../../components/footer/footer.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ComponentsModule,
+    FooterComponentModule,
     DownloadPageRoutingModule,
     TranslateModule.forChild()
   ],

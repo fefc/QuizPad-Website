@@ -9,14 +9,14 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 
-import { ComponentsModule } from '../../components/components.module';
+import { FooterComponentModule } from '../../components/footer/footer.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ComponentsModule,
+    FooterComponentModule,
     HomePageRoutingModule,
     TranslateModule.forChild()
   ],
