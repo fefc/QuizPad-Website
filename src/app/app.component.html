@@ -25,7 +25,10 @@
 
   <ion-menu menuId="first" contentId="main-content" type="overlay" swipeGesture="false" side="end" class="ion-hide-lg-up">
     <ion-header class="ion-no-border">
-      <ion-toolbar color="primary">
+      <ion-toolbar  color="primary">
+        <ion-title>
+          {{ 'HEADER.MENU' | translate }}
+          </ion-title>
         <ion-buttons slot="end">
           <ion-button (click)="closeMenu()">
             <ion-icon slot="icon-only" name="close"></ion-icon>
@@ -33,29 +36,29 @@
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
-    <ion-content color="primary">
-      <ion-list>
+    <ion-content color="favorite">
+      <ion-list lines="none">
         <ion-menu-toggle auto-hide="true">
-          <ion-item color="transparent" href="https://web.quizpadapp.com/" target="_blank">
-            <ion-icon slot="start" name="desktop"></ion-icon>
+          <ion-item color="favorite" href="https://web.quizpadapp.com/" target="_blank">
+            <ion-icon slot="start" name="desktop" color="light"></ion-icon>
             <ion-label>{{ 'HEADER.WEB' | translate }}</ion-label>
           </ion-item>
         </ion-menu-toggle>
         <ion-menu-toggle auto-hide="true">
           <ion-item color="transparent" routerLink="/features" routerDirection="root">
-            <ion-icon slot="start" name="shapes"></ion-icon>
+            <ion-icon slot="start" name="shapes"  color="light"></ion-icon>
             <ion-label>{{ 'HEADER.FEATURES' | translate }}</ion-label>
           </ion-item>
         </ion-menu-toggle>
         <ion-menu-toggle auto-hide="true">
           <ion-item color="transparent" routerLink="/download" routerDirection="root">
-            <ion-icon slot="start" name="download"></ion-icon>
+            <ion-icon slot="start" name="download"  color="light"></ion-icon>
             <ion-label>{{ 'HEADER.DOWNLOAD' | translate }}</ion-label>
           </ion-item>
         </ion-menu-toggle>
         <ion-menu-toggle auto-hide="true">
           <ion-item color="transparent">
-            <ion-icon slot="start" name="language"></ion-icon>
+            <ion-icon slot="start" name="language"  color="light"></ion-icon>
             <ion-label>{{ 'HEADER.LANGUAGE' | translate }}</ion-label>
             <ion-select interface="interface"
             [(ngModel)]="selectedLanguage"
