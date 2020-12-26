@@ -1,13 +1,8 @@
 <ion-app>
   <ion-header>
     <ion-toolbar color="primary">
-      <ion-title routerLink="/home" routerDirection="root" class="ion-hide-lg-down">
-        <ion-icon src="assets/svgs/icon.svg"></ion-icon>
-        QuizPad
-      </ion-title>
-      <ion-title routerLink="/home" routerDirection="root" class="ion-hide-lg-up">
-        <ion-icon src="assets/svgs/icon.svg"></ion-icon>
-        TITLE
+      <ion-title routerLink="/home" routerDirection="root">
+        <ion-img style="height: 42px" src="assets/svgs/icon_title.svg"></ion-img>
       </ion-title>
       <ion-buttons slot="end" class="ion-hide-lg-down">
         <ion-button href="https://web.quizpadapp.com/" target="_blank">{{ 'HEADER.WEB' | translate }}</ion-button>
@@ -31,9 +26,6 @@
   <ion-menu menuId="first" contentId="main-content" type="overlay" swipeGesture="false" side="end" class="ion-hide-lg-up">
     <ion-header class="ion-no-border">
       <ion-toolbar color="primary">
-        <ion-title routerLink="/home" routerDirection="root">
-          <ion-icon src="assets/svgs/icon.svg"></ion-icon>
-        </ion-title>
         <ion-buttons slot="end">
           <ion-button (click)="closeMenu()">
             <ion-icon slot="icon-only" name="close"></ion-icon>
