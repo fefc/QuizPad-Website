@@ -9,6 +9,7 @@
     "CANCEL": "Cancel"
   },
   "FEATURES": {
+    "MAIN_TITLE": "Features",
     "QRCODE_TITLE": "Qr-Code",
     "MULTIPLAYER_TITLE": "Multiplayer",
     "SYNCHRONISE_TITLE": "Synchronisation",
@@ -23,6 +24,7 @@
     "MULTIPLE_FORMATS_DESC": "From text answers to pictures, choose how you want to display your content! Add a media as an introduction to your question and make your quiz even more lively."
   },
   "DOWNLOAD": {
+    "MAIN_TITLE": "Download",
     "ANDROID_TITLE": "Android",
     "ANDROID_DESC": "QuizPad is available for Android on Google Play.",
     "IOS_TITLE": "iOS",
