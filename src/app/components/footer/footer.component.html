@@ -11,13 +11,13 @@
               <ion-icon name="compass" slot="start"></ion-icon>
               <ion-label>{{ 'FOOTER.ABOUT' | translate }}</ion-label>
             </ion-item>
-            <ion-item color="favorite">
-              <ion-icon name="receipt" slot="start"></ion-icon>
-              <ion-label>Terms of use</ion-label>
-            </ion-item>
-            <ion-item color="favorite">
+            <ion-item color="favorite" routerLink="/privacy" routerDirection="root">
               <ion-icon name="shield-checkmark" slot="start"></ion-icon>
-              <ion-label>Privacy policy</ion-label>
+              <ion-label>{{ 'FOOTER.PRIVACY' | translate }}</ion-label>
+            </ion-item>
+            <ion-item color="favorite" routerLink="/terms" routerDirection="root">
+              <ion-icon name="receipt" slot="start"></ion-icon>
+              <ion-label>{{ 'FOOTER.TERMS' | translate }}</ion-label>
             </ion-item>
           </ion-list>
         </ion-col>
