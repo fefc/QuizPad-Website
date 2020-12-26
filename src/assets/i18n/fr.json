@@ -50,5 +50,15 @@
     "STEP_THREE_SUBTITLE": "Étape 3",
     "STEP_THREE_TITLE": "Jouez",
     "MAIN_DISCOVER_FEATURES": "Découvrez toutes les fonctionnalités"
+  },
+  "FOOTER": {
+    "ABOUT": "A propos",
+    "PRIVACY": "Confidentialité",
+    "TERMS": "Conditions",
+    "HELP": "FAQ",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SIGNATURE_LEFT": "Codé avec ",
+    "SIGNATURE_RIGHT": " par fefc."
   }
 }

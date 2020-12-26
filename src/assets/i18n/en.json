@@ -50,5 +50,15 @@
     "STEP_THREE_SUBTITLE": "Step 3",
     "STEP_THREE_TITLE": "Play",
     "MAIN_DISCOVER_FEATURES": "Discover all features"
+  },
+  "FOOTER": {
+    "ABOUT": "About",
+    "PRIVACY": "Privacy",
+    "TERMS": "Terms & Conditions",
+    "HELP": "FAQ",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SIGNATURE_LEFT": "Coded with ",
+    "SIGNATURE_RIGHT": " by fefc."
   }
 }

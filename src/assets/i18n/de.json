@@ -50,5 +50,15 @@
     "STEP_THREE_SUBTITLE": "Schritt 3",
     "STEP_THREE_TITLE": "Spielen",
     "MAIN_DISCOVER_FEATURES": "Entdecken Sie alle Funktionen"
+  },
+  "FOOTER": {
+    "ABOUT": "Über",
+    "PRIVACY": "Datenschutzrichtlinie",
+    "TERMS": "Nutzungsbedingungen",
+    "HELP": "FAQ",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "SIGNATURE_LEFT": "Mit ",
+    "SIGNATURE_RIGHT": " codiert von fefc."
   }
 }
