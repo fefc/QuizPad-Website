@@ -1,7 +1,60 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      About
+      <ion-col>
+        <h2>{{ 'ABOUT.MAIN_TITLE' | translate }}</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size-lg="2" class="ion-hide-lg-down">
+        <div class="icon-container">
+        <ion-icon name="bulb-outline" color="medium"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col size-lg="10">
+        <ion-card>
+          <ion-item>
+            <ion-icon name="bulb-outline" slot="end" class="ion-hide-lg-up"></ion-icon>
+            <ion-label>{{ 'ABOUT.IDEA_TITLE' | translate }}</ion-label>
+          </ion-item>
+          <ion-card-content [innerHTML]="'ABOUT.IDEA_DESC' | translate">
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size-lg="10">
+        <ion-card>
+          <ion-item>
+            <ion-icon name="rocket-outline" slot="end" class="ion-hide-lg-up"></ion-icon>
+            <ion-label>{{ 'ABOUT.PROTOTYPE_TITLE' | translate }}</ion-label>
+          </ion-item>
+          <ion-card-content [innerHTML]="'ABOUT.PROTOTYPE_DESC' | translate">
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size-lg="2" class="ion-hide-lg-down">
+        <div class="icon-container">
+        <ion-icon name="rocket-outline" color="medium"></ion-icon>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="2" class="ion-hide-lg-down">
+        <div class="icon-container">
+          <ion-icon name="fitness-outline" color="medium"></ion-icon>
+        </div>
+      </ion-col>
+      <ion-col size-lg="10">
+        <ion-card>
+          <ion-item>
+            <ion-icon name="fitness-outline" slot="end" class="ion-hide-lg-up"></ion-icon>
+            <ion-label>{{ 'ABOUT.NOW_TITLE' | translate }}</ion-label>
+          </ion-item>
+          <ion-card-content [innerHTML]="'ABOUT.NOW_DESC' | translate">
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
     </ion-row>
   </ion-grid>
   <app-footer></app-footer>

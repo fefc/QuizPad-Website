@@ -52,6 +52,15 @@
     "STEP_THREE_TITLE": "Play",
     "MAIN_DISCOVER_FEATURES": "Discover all features"
   },
+  "ABOUT": {
+    "MAIN_TITLE": "About",
+    "IDEA_TITLE": "A simple idea",
+    "IDEA_DESC": "The idea of an app allowing to create custom quizzes came out in 2016 when my brother talked about the possibility of sharing familly pictures and videos for the 90 anniversary of our grandmother!<br><br>Back then we couldn't find any software fitting our needs, so we started developping the very first prototype of QuizPad.Only the playing part had a graphical interface, creating and editing quizzes was done by hand.",
+    "PROTOTYPE_TITLE": "Prototype to production",
+    "PROTOTYPE_DESC": "With time we started developping a version based on web technologies which would allow us to create and play with one software, anytime, anywhere with a smartphone!<br><br>The first official QuizPad release goes back to 2019 with modest functionalities.",
+    "NOW_TITLE": "Here and now",
+    "NOW_DESC": "Less than one year later we were able to release QuizPad 3, which includes:<ul><li>full support of medias such as videos and pictures</li><li>realtime synchronisation between devices</li><li>support for mobile and desktop devices</li></ul>We continiously develop new features to make it even more easy to create, play an share quizzes!"
+  },
   "FOOTER": {
     "ABOUT": "About",
     "PRIVACY": "Privacy",

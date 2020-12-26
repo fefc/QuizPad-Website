@@ -1,0 +1,25 @@
+ion-col {
+  display: flex;
+  flex-flow: column;
+
+  ion-card {
+    flex-grow: 1;
+
+    display: flex;
+    flex-flow: column;
+
+  }
+}
+
+ion-card-content {
+  text-align: left !important;
+}
+
+.icon-container {
+  height: 100%;
+
+  ion-icon {
+    height: 100%;
+    width: 100%;
+  }
+}
