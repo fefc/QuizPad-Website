@@ -54,6 +54,15 @@
     "STEP_THREE_TITLE": "Jouez",
     "MAIN_DISCOVER_FEATURES": "Découvrez toutes les fonctionnalités"
   },
+  "ABOUT": {
+    "MAIN_TITLE": "À propos",
+    "IDEA_TITLE": "Une simple idée",
+    "IDEA_DESC": "L'idée d'une application permettant de créer des quizs pérsonalisés est née en 2016 lorsque mon frère proposait de partager des photos et des vidéos de familles pour les 90 ans de notre grand-mère! Nous ne voulions pas d'une simple présentation Powerpoint (qui sont vite enuiantes) mais une solution où chaqu'un pouvait participer activement!<br><br>À l'époque nous n'avons trouvé aucune solution correspondant à nos exigeances, nous avons donc commencé à développer le tout premier prototype de QuizPad. Seul le jeu avait une interface graphique, la création et l'édition de questions se faisaient laborieusement à la main.",
+    "PROTOTYPE_TITLE": "Une première version",
+    "PROTOTYPE_DESC": "L'anniversaire ayant été un succes, nous avons continués à développer une version plus compléte qui permetterait de créer et de jouer avec une seule application, à tout moment et n'importe où avec son smartphone!<br><br>La première version officielle de QuizPad remonte à 2019 avec sont lot de fonctionnalités encore modestes.",
+    "NOW_TITLE": "Aujourd'hui",
+    "NOW_DESC": "Moins d'un an plus tard nous avons publiée la 3éme version de QuizPad, riche en fonctionnalités:<ul><li>Support complet des médias tels que vidéos et images</li><li>Prise en charge des appareils mobiles et fixes</li><li>Synchronisation en temps réel entre appareils</li></ul>Nous développons continuellement de nouvelles fonctionnalités pour rendre QuizPad encore plus facile, plus intéractif et plus ludique!"
+  },
   "FOOTER": {
     "ABOUT": "A propos",
     "PRIVACY": "Confidentialité",

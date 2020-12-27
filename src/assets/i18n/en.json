@@ -57,11 +57,11 @@
   "ABOUT": {
     "MAIN_TITLE": "About",
     "IDEA_TITLE": "A simple idea",
-    "IDEA_DESC": "The idea of an app allowing to create custom quizzes came out in 2016 when my brother talked about the possibility of sharing familly pictures and videos for the 90 anniversary of our grandmother!<br><br>Back then we couldn't find any software fitting our needs, so we started developping the very first prototype of QuizPad.Only the playing part had a graphical interface, creating and editing quizzes was done by hand.",
-    "PROTOTYPE_TITLE": "Prototype to production",
-    "PROTOTYPE_DESC": "With time we started developping a version based on web technologies which would allow us to create and play with one software, anytime, anywhere with a smartphone!<br><br>The first official QuizPad release goes back to 2019 with modest functionalities.",
-    "NOW_TITLE": "Here and now",
-    "NOW_DESC": "Less than one year later we were able to release QuizPad 3, which includes:<ul><li>full support of medias such as videos and pictures</li><li>realtime synchronisation between devices</li><li>support for mobile and desktop devices</li></ul>We continiously develop new features to make it even more easy to create, play an share quizzes!"
+    "IDEA_DESC": "The idea of an app to create personalized quizzes was born in 2016 when my brother talked about the possibility to share family photos and videos for our grandmother's 90th birthday! We didn't want a simple Powerpoint presentation (which quickly gets boring) but a solution where everyone could participate actively!<br><br>Back then we could not find any solution fitting our needs, so we started to develop the very first prototype of QuizPad. Only the game had a graphical interface, creating and editing questions was laboriously done by hand.",
+    "PROTOTYPE_TITLE": "A first version",
+    "PROTOTYPE_DESC": "As the birthday event had been a success, we continued to develop a more complete version that would allow you to create and play with a single application, anytime and anywhere with your smartphone!<br><br>The first official version of QuizPad dates back to 2019 with a modest features package.",
+    "NOW_TITLE": "Today",
+    "NOW_DESC": "Less than a year later we released the 3rd version of QuizPad, rich in features:<ul><li>Full support for medias such as videos and images</li><li>Support for mobile and desktop devices</li><li>Real-time synchronization between devices</li></ul>We are constantly developing new features to make QuizPad even easier, more interactive and more fun!"
   },
   "FOOTER": {
     "ABOUT": "About",
