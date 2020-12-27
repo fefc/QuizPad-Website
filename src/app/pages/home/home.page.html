@@ -209,7 +209,14 @@
     </ion-row>
     <ion-row>
       <ion-col class="button-col">
-        <ion-button fill="outline" routerLink="/features" routerDirection="root">{{ 'HOME.MAIN_DISCOVER_FEATURES' | translate }}</ion-button>
+        <ion-button fill="outline" href="https://youtu.be/XRnzDvuUqXg?t=54" target="_blank">
+          <ion-icon name="logo-youtube" slot="start"></ion-icon>
+          {{ 'HOME.MAIN_WATCH_DEMO' | translate }}</ion-button>
+      </ion-col>
+      <ion-col class="button-col">
+        <ion-button fill="outline" routerLink="/features" routerDirection="root">
+          <ion-icon name="shapes" slot="start"></ion-icon>
+          {{ 'HOME.MAIN_DISCOVER_FEATURES' | translate }}</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
