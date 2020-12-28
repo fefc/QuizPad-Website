@@ -1,8 +1,15 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      Privacy
+      <ion-col>
+        <h2>{{ 'ABOUT.MAIN_TITLE' | translate }}</h2>
+      </ion-col>
     </ion-row>
+    <ion-row>
+      <ion-col [innerHTML]="'PRIVACY.CONTENT' | translate">
+
+        </ion-col>
+      </ion-row>
   </ion-grid>
   <app-footer></app-footer>
 </ion-content>
