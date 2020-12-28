@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePage implements OnInit {
 
-  private sliderOpts = {
+  public sliderOpts = {
     autoplay: true,
     loop: true,
     speed: 2000,
@@ -75,7 +75,7 @@ export class HomePage implements OnInit {
   }
 
   ngOnInit() {
-    
+
   }
 
 }

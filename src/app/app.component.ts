@@ -12,7 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
-  private selectedLanguage: string = 'fr';
+  public selectedLanguage: string = 'fr';
 
   constructor(
     private platform: Platform,
