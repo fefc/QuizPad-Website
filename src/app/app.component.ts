@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
     this.platform.ready().then(() => {
       this.translate.addLangs(['en', 'fr', 'de']); //Set available languages
 
-      this.selectedLanguage = this.getSimplePlatformLocale();
+      this.selectedLanguage = this.getPreferredLanguage() || this.getSimplePlatformLocale();
 
       if (this.translate.getLangs().indexOf(this.selectedLanguage) === -1) {
         this.selectedLanguage = 'en';
@@ -44,6 +44,7 @@ export class AppComponent implements OnInit {
 
   changeLanguage() {
     this.translate.setDefaultLang(this.selectedLanguage);
+    this.savePreferredLanguage(this.selectedLanguage);
   }
 
   openMenu() {
@@ -76,5 +77,20 @@ export class AppComponent implements OnInit {
   getCrossPlatformLocale () {
     // userLanguage is for IE, which corresponds to selected regional format
     return (<any> window.navigator).userLanguage || window.navigator.language;
-}
+  }
+
+  getPreferredLanguage():string {
+      if (localStorage){
+          return localStorage['user-language'] || "";
+      }
+      else{
+          return "";
+      }
+  }
+
+  savePreferredLanguage(language: string) {
+    if (localStorage){
+      localStorage['user-language'] = language;
+    }
+  }
 }
